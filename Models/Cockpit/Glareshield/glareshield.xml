@@ -1,0 +1,2515 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+<path>glareshield.ac</path>
+
+<!--Lighting Effect-->
+
+<animation>
+	<type>select</type>
+	<object-name>AFDS.integ</object-name>
+	<object-name>ALT_HOLD.integ</object-name>
+	<object-name>AP.panel</object-name>
+	<object-name>AP.panel.002</object-name>
+	<object-name>CMD_C.integ</object-name>
+	<object-name>CMD_L.integ</object-name>
+	<object-name>CMD_R.integ</object-name>
+	<object-name>DH.reset.L.integ</object-name>
+	<object-name>DH.reset.R.integ</object-name>
+	<object-name>EICAS.001.integ</object-name>
+	<object-name>FLCH.integ</object-name>
+	<object-name>HDG_HOLD.integ</object-name>
+	<object-name>inhg.reset.L.integ</object-name>
+	<object-name>inhg.reset.R.integ</object-name>
+	<object-name>LNAV.integ</object-name>
+	<object-name>ND.center.L.integ</object-name>
+	<object-name>ND.center.R.integ</object-name>
+	<object-name>RDR.arpt.L.integ</object-name>
+	<object-name>RDR.arpt.R.integ</object-name>
+	<object-name>RDR.data.L.integ</object-name>
+	<object-name>RDR.data.R.integ</object-name>
+	<object-name>RDR.pos.L.integ</object-name>
+	<object-name>RDR.pos.R.integ</object-name>
+	<object-name>RDR.sta.L.integ</object-name>
+	<object-name>RDR.sta.R.integ</object-name>
+	<object-name>RDR.terr.L.integ</object-name>
+	<object-name>RDR.terr.R.integ</object-name>
+	<object-name>RDR.wpt.L.integ</object-name>
+	<object-name>RDR.wpt.R.integ</object-name>
+	<object-name>RDR.wxr.L.integ</object-name>
+	<object-name>RDR.wxr.R.integ</object-name>
+	<object-name>SPD.integ</object-name>
+	<object-name>sw.hdgsel.integ</object-name>
+	<object-name>sw.loc.integ</object-name>
+	<object-name>sw.app.integ</object-name>
+	<object-name>TFC.L.integ</object-name>
+	<object-name>TFC.R.integ</object-name>
+	<object-name>THR.integ</object-name>
+	<object-name>VNAV.integ</object-name>
+	<object-name>VS.integ</object-name>
+	<condition>
+		<greater-than>
+			<property>/controls/lighting/panel-glareshield-integ</property>
+			<value>0.0</value>
+		</greater-than>
+	</condition>
+</animation>
+
+
+<animation>
+	<type>material</type>
+	<object-name>AFDS.integ</object-name>
+	<object-name>ALT_HOLD.integ</object-name>
+	<object-name>AP.panel</object-name>
+	<object-name>AP.panel.002</object-name>
+	<object-name>BARO.knob.L_0</object-name>
+	<object-name>BARO.knob.R_0</object-name>
+	<object-name>CMD_C.integ</object-name>
+	<object-name>CMD_L.integ</object-name>
+	<object-name>CMD_R.integ</object-name>
+	<object-name>DH.reset.L.integ</object-name>
+	<object-name>DH.reset.R.integ</object-name>
+	<object-name>EICAS.001.integ</object-name>
+	<object-name>FLCH.integ</object-name>
+	<object-name>HDG_HOLD.integ</object-name>
+	<object-name>inhg.reset.L.integ</object-name>
+	<object-name>inhg.reset.R.integ</object-name>
+	<object-name>LNAV.integ</object-name>
+	<object-name>MODE.knob.L_0</object-name>
+	<object-name>MODE.knob.R_0</object-name>
+	<object-name>MINS.knob.L_0</object-name>
+	<object-name>MINS.knob.R_0</object-name>
+	<object-name>ND.center.L.integ</object-name>
+	<object-name>ND.center.R.integ</object-name>
+	<object-name>Plane.105_0</object-name>
+	<object-name>Plane.105_0.001</object-name>
+	<object-name>Range.knob.L_0</object-name>
+	<object-name>Range.knob.R_0</object-name>
+	<object-name>RDR.arpt.L.integ</object-name>
+	<object-name>RDR.arpt.R.integ</object-name>
+	<object-name>RDR.data.L.integ</object-name>
+	<object-name>RDR.data.R.integ</object-name>
+	<object-name>RDR.pos.L.integ</object-name>
+	<object-name>RDR.pos.R.integ</object-name>
+	<object-name>RDR.sta.L.integ</object-name>
+	<object-name>RDR.sta.R.integ</object-name>
+	<object-name>RDR.terr.L.integ</object-name>
+	<object-name>RDR.terr.R.integ</object-name>
+	<object-name>RDR.wpt.L.integ</object-name>
+	<object-name>RDR.wpt.R.integ</object-name>
+	<object-name>RDR.wxr.L.integ</object-name>
+	<object-name>RDR.wxr.R.integ</object-name>
+	<object-name>SPD.integ</object-name>
+	<object-name>sw.bank-limit.integ</object-name>
+	<object-name>sw.hdgsel.integ</object-name>
+	<object-name>sw.loc.integ</object-name>
+	<object-name>sw.app.integ</object-name>
+	<object-name>TFC.L.integ</object-name>
+	<object-name>TFC.R.integ</object-name>
+	<object-name>THR.integ</object-name>
+	<object-name>VNAV.integ</object-name>
+	<object-name>VS.integ</object-name>
+	<condition>
+    <or>
+      <equals>
+        <property>controls/electric/battery</property>
+        <value>true</value>
+      </equals>
+
+      <and>
+        <equals>
+          <property>systems/electrical/external-power</property>
+          <value>2</value>
+        </equals>
+
+        <equals>
+          <property>systems/electrical/external-power[1]</property>
+          <value>2</value>
+        </equals>
+      </and>
+    </or>
+  </condition>
+  <emission>
+    <red>0.82</red>
+    <green>0.57</green>
+    <blue>0.19</blue>
+    <factor-prop>/controls/lighting/panel-glareshield-integ</factor-prop>
+  </emission>
+</animation>
+
+<!-- PANEL LIGHTING -->
+
+<animation>
+	<type>material</type>
+	<object-name>EICAS</object-name>
+	<object-name>AFDS</object-name>
+	<object-name>EFIS.panel</object-name>
+	<object-name>EFIS.panel.001</object-name>
+	<emission>
+		<red>0.5</red>
+		<green>0.4</green>
+		<blue>0.2</blue>
+		<factor-prop>controls/lighting/panel-norm</factor-prop>
+	</emission>
+</animation>
+
+<!-- DIGITS -->
+	<!-- A/T -->
+
+<animation>
+	<type>select</type>
+	<object-name>ias.ind</object-name>
+	<object-name>IAS.Digit1</object-name>
+	<object-name>IAS.Digit2</object-name>
+	<object-name>IAS.Digit3</object-name>
+	<condition>
+		<and>
+			<not>
+				<property>it-autoflight/input/kts-mach</property>
+			</not>
+			<property>controls/electric/battery</property>
+		</and>
+	</condition>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>IAS.Digit1</object-name>
+	<property>it-autoflight/input/kts</property>
+	<factor>0.001</factor>
+	<step>100</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>IAS.Digit2</object-name>
+	<property>it-autoflight/input/kts</property>
+	<factor>0.01</factor>
+	<step>10</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>IAS.Digit3</object-name>
+	<property>it-autoflight/input/kts</property>
+	<factor>0.1</factor>
+	<step>1</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>mach.ind</object-name>
+	<object-name>Mach.Digit1</object-name>
+	<object-name>Mach.Digit2</object-name>
+	<object-name>Mach.Digit3</object-name>
+	<condition>
+		<and>
+			<property>it-autoflight/input/kts-mach</property>
+			<property>controls/electric/battery</property>
+		</and>
+	</condition>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>Mach.Digit1</object-name>
+	<property>it-autoflight/input/mach</property>
+	<factor>1</factor>
+	<step>0.1</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>Mach.Digit2</object-name>
+	<property>it-autoflight/input/mach</property>
+	<factor>10</factor>
+	<step>0.01</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>Mach.Digit3</object-name>
+	<property>it-autoflight/input/mach</property>
+	<factor>100</factor>
+	<step>0.001</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+	<!-- HDG -->
+<animation>
+	<type>select</type>
+	<object-name>Hdg.Digit1</object-name>
+	<object-name>Hdg.Digit2</object-name>
+	<object-name>Hdg.Digit3</object-name>
+	<condition>
+		<property>controls/electric/battery</property>
+	</condition>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>Hdg.Digit1</object-name>
+	<property>it-autoflight/input/hdg</property>
+	<factor>0.001</factor>
+	<step>100</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>Hdg.Digit2</object-name>
+	<property>it-autoflight/input/hdg</property>
+	<factor>0.01</factor>
+	<step>10</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>Hdg.Digit3</object-name>
+	<property>it-autoflight/input/hdg</property>
+	<factor>0.1</factor>
+	<step>1</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+	<!-- VS -->
+<animation>
+	<type>select</type>
+	<object-name>VS.Digit1</object-name>
+	<object-name>VS.Digit2</object-name>
+	<object-name>VS.Digit3</object-name>
+	<object-name>VS.Digit4</object-name>
+	<condition>
+	    <and>
+		<property>controls/electric/battery</property>
+		<equals>
+		    <property>it-autoflight/mode/vert</property>
+        <value>V/S</value>
+		</equals>
+	    </and>
+	</condition>
+</animation>
+<animation>
+	<type>select</type>
+	<object-name>VS.ledminus</object-name>
+	<condition>
+	    <and>
+		<property>controls/electric/battery</property>
+		<less-than>
+		    <property>it-autoflight/input/vs</property>
+		    <value>0</value>
+		</less-than>
+		<equals>
+		    <property>it-autoflight/mode/vert</property>
+        <value>V/S</value>
+		</equals>
+	    </and>
+	</condition>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>VS.Digit1</object-name>
+	<property>it-autoflight/input/vs-abs</property>
+	<factor>0.0001</factor>
+	<step>1000</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>VS.Digit2</object-name>
+	<property>it-autoflight/input/vs-abs</property>
+	<factor>0.001</factor>
+	<step>100</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>VS.Digit3</object-name>
+	<property>it-autoflight/input/vs-abs</property>
+	<factor>0.01</factor>
+	<step>10</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>VS.Digit4</object-name>
+	<property>it-autoflight/input/vs</property>
+	<factor>0.1</factor>
+	<step>1</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+	<!-- ALT -->
+<animation>
+	<type>select</type>
+	<object-name>Alt.Digit1</object-name>
+	<object-name>Alt.Digit2</object-name>
+	<object-name>Alt.Digit3</object-name>
+	<object-name>Alt.Digit4</object-name>
+	<object-name>Alt.Digit5</object-name>
+	<condition>
+		<property>controls/electric/battery</property>
+	</condition>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>Alt.Digit1</object-name>
+	<property>it-autoflight/input/alt</property>
+	<factor>0.00001</factor>
+	<step>10000</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>Alt.Digit2</object-name>
+	<property>it-autoflight/input/alt</property>
+	<factor>0.0001</factor>
+	<step>1000</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>Alt.Digit3</object-name>
+	<property>it-autoflight/input/alt</property>
+	<factor>0.001</factor>
+	<step>100</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>Alt.Digit4</object-name>
+	<property>it-autoflight/input/alt</property>
+	<factor>0.01</factor>
+	<step>10</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+	<type>textranslate</type>
+	<object-name>Alt.Digit5</object-name>
+	<property>it-autoflight/input/alt</property>
+	<factor>0.1</factor>
+	<step>1</step>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<!-- WARNING/CAUTION -->
+
+<animation>
+	<type>pick</type>
+	<object-name>warning_lit</object-name>
+	<object-name>warning_unlit</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-assign</command>
+			<property>/instrumentation/annunciators/master-warning</property>
+			<value>0</value>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>warning_lit</object-name>
+	<condition>
+		<equals>
+			<property>/instrumentation/annunciators/master-warning</property>
+			<value>1</value>
+		</equals>
+	</condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>warning_unlit</object-name>
+	<condition>
+		<not>
+			<equals>
+				<property>/instrumentation/annunciators/master-warning</property>
+				<value>1</value>
+			</equals>
+		</not>
+	</condition>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>caution_lit</object-name>
+	<object-name>caution_unlit</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-assign</command>
+			<property>/instrumentation/annunciators/master-caution</property>
+			<value>0</value>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>caution_lit</object-name>
+	<condition>
+		<equals>
+			<property>/instrumentation/annunciators/master-caution</property>
+			<value>1</value>
+		</equals>
+	</condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>caution_unlit</object-name>
+	<condition>
+		<not-equals>
+				<property>/instrumentation/annunciators/master-caution</property>
+				<value>1</value>
+			</not-equals>
+	</condition>
+</animation>
+
+<!-- IAS/MACH -->
+
+<animation>
+	<type>pick</type>
+	<object-name>sw.spd</object-name>
+	<action>
+		<button>0</button>
+		<button>3</button>
+		<repeatable>true</repeatable>
+		<binding>
+			<condition>
+				<not>
+					<property>it-autoflight/input/kts-mach</property>
+				</not>
+			</condition>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/kts</property>
+			<step>1</step>
+			<min>100</min>
+			<max>399</max>
+		</binding>
+		<binding>
+			<condition>
+					<property>it-autoflight/input/kts-mach</property>
+			</condition>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/mach</property>
+			<step>0.001</step>
+			<min>0.40</min>
+			<max>0.95</max>
+		</binding>
+	</action>
+	<action>
+		<button>1</button>
+		<button>4</button>
+		<repeatable>true</repeatable>
+		<binding>
+			<condition>
+				<not>
+					<property>it-autoflight/input/kts-mach</property>
+				</not>
+			</condition>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/kts</property>
+			<step>-1</step>
+			<min>100</min>
+			<max>399</max>
+		</binding>
+		<binding>
+			<condition>
+					<property>it-autoflight/input/kts-mach</property>
+			</condition>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/mach</property>
+			<step>-0.001</step>
+			<min>0.40</min>
+			<max>0.95</max>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>mach_btn</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-toggle</command>
+			<property>it-autoflight/input/kts-mach</property>
+		</binding>
+	</action>
+</animation>
+
+<!-- VS -->
+
+<animation>
+	<type>pick</type>
+	<object-name>VS_dn</object-name>
+	<action>
+		<button>0</button>
+		<button>3</button>
+		<repeatable>true</repeatable>
+		<binding>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/vs</property>
+			<step>-100</step>
+			<min>-8000</min>
+			<max>6000</max>
+		</binding>
+	</action>
+	<action>
+		<button>4</button>
+		<repeatable>true</repeatable>
+		<binding>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/vs</property>
+			<step>100</step>
+			<min>-8000</min>
+			<max>6000</max>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>VS_up</object-name>
+	<action>
+		<button>0</button>
+		<button>4</button>
+		<repeatable>true</repeatable>
+		<binding>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/vs</property>
+			<step>100</step>
+			<min>-8000</min>
+			<max>6000</max>
+		</binding>
+	</action>
+	<action>
+		<button>3</button>
+		<repeatable>true</repeatable>
+		<binding>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/vs</property>
+			<step>-100</step>
+			<min>-8000</min>
+			<max>6000</max>
+		</binding>
+	</action>
+</animation>
+
+<!-- ALT-->
+
+<animation>
+	<type>pick</type>
+	<object-name>sw.alt</object-name>
+	<action>
+		<button>0</button>
+		<button>3</button>
+		<repeatable>true</repeatable>
+		<binding>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/alt</property>
+			<step>100</step>
+			<min>0</min>
+			<max>50000</max>
+		</binding>
+	</action>
+	<action>
+		<button>1</button>
+		<button>4</button>
+		<repeatable>true</repeatable>
+		<binding>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/alt</property>
+			<step>-100</step>
+			<min>0</min>
+			<max>50000</max>
+		</binding>
+	</action>
+</animation>
+
+<!-- FD switches-->
+
+<animation>
+	<type>pick</type>
+	<object-name>FD</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-toggle</command>
+			<property>it-autoflight/input/fd1</property>
+		</binding>
+		<binding>
+			<command>property-toggle</command>
+			<property>it-autoflight/input/fd2</property>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+    <type>rotate</type>
+    <object-name>FD</object-name>
+    <property>it-autoflight/input/fd1</property>
+    <factor>-45</factor>
+    <center>
+      <x-m>0.910</x-m>
+      <y-m>0</y-m>
+      <z-m>0.954</z-m>
+    </center>
+    <axis>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
+    </axis>
+</animation>
+
+<!-- HDG -->
+
+<animation>
+	<type>pick</type>
+	<object-name>sw.bank-limit</object-name>
+	<object-name>sw.bank-limit.integ</object-name>
+	<action>
+		<button>0</button>
+		<button>3</button>
+		<repeatable>true</repeatable>
+		<binding>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/bank-limit-sw</property>
+			<step>1</step>
+			<min>0</min>
+			<max>5</max>
+		</binding>
+	</action>
+	<action>
+		<button>1</button>
+		<button>4</button>
+		<repeatable>true</repeatable>
+		<binding>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/bank-limit-sw</property>
+			<step>-1</step>
+			<min>0</min>
+			<max>5</max>
+		</binding>
+	</action>
+	<hovered>
+	    <binding>
+		<command>set-tooltip</command>
+		<tooltip-id>bank-limit-set</tooltip-id>
+		<label>Bank Limit: %s</label>
+		<property>it-autoflight/internal/bank-limit</property>
+	    </binding>
+	</hovered>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>sw.bank-limit</object-name>
+	<object-name>sw.bank-limit.integ</object-name>
+	<property>/it-autoflight/input/bank-limit-sw</property>
+	<factor>25</factor>
+	<axis>
+		<x1-m> 0.919</x1-m>
+		<y1-m>-0.096</y1-m>
+		<z1-m> 0.951</z1-m>
+		<x2-m> 0.913</x2-m>
+		<y2-m>-0.096</y2-m>
+		<z2-m> 0.949</z2-m>
+	</axis>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>sw.hdg</object-name>
+	<action>
+		<button>0</button>
+		<button>3</button>
+		<repeatable>true</repeatable>
+		<binding>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/hdg</property>
+			<step>1</step>
+			<min>000</min>
+			<max>360</max>
+			<wrap>true</wrap>
+		</binding>
+	</action>
+	<action>
+		<button>1</button>
+		<button>4</button>
+		<repeatable>true</repeatable>
+		<binding>
+			<command>property-adjust</command>
+			<property>it-autoflight/input/hdg</property>
+			<step>-1</step>
+			<min>000</min>
+			<max>360</max>
+			<wrap>true</wrap>
+		</binding>
+	</action>
+</animation>
+<animation>
+	<type>pick</type>
+	<object-name>sw.hdgsel</object-name>
+	<object-name>sw.hdgsel.integ</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>nasal</command>
+			<script>controls.click(4);</script>
+		</binding>
+		<binding>
+			<command>property-assign</command>
+			<property>it-autoflight/input/lat</property>
+			<value>0</value>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>HDG_HOLD</object-name>
+	<object-name>HDG_HOLD.integ</object-name>
+	<object-name>HDG_HOLD_lit</object-name>
+	<object-name>HDG_HOLD_unlit</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>nasal</command>
+			<script>controls.click(4);</script>
+		</binding>
+		<binding>
+			<condition>
+				<not-equals>
+					<property>it-autoflight/input/lat</property>
+					<value>3</value>
+				</not-equals>
+			</condition>
+			<command>property-assign</command>
+			<property>it-autoflight/input/lat</property>
+			<value>3</value>
+		</binding>
+	</action>
+ </animation>
+
+<animation>
+    <type>select</type>
+    <object-name>HDG_HOLD_lit</object-name>
+    <condition>
+			<and>
+				<or>
+					<equals>
+						<property>it-autoflight/output/lat</property>
+						<value>3</value>
+					</equals>
+
+					<equals>
+						<property>it-autoflight/output/lat</property>
+						<value>0</value>
+					</equals>
+				</or>
+				<equals>
+					<property>controls/electric/battery</property>
+					<value>true</value>
+				</equals>
+			</and>
+    </condition>
+</animation>
+
+<animation>
+    <type>select</type>
+    <object-name>HDG_HOLD_unlit</object-name>
+    <condition>
+			<or>
+				<not-equals>
+					<property>it-autoflight/output/lat</property>
+					<value>3</value>
+				</not-equals>
+
+				<not-equals>
+					<property>it-autoflight/output/lat</property>
+					<value>0</value>
+				</not-equals>
+			</or>
+		</condition>
+	</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>VS</object-name>
+	<object-name>VS.integ</object-name>
+	<object-name>VS_lit</object-name>
+	<object-name>VS_unlit</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>nasal</command>
+			<script>controls.click(4);</script>
+		</binding>
+		<binding>
+			<condition>
+				<not-equals>
+					<property>it-autoflight/input/vert</property>
+					<value>1</value>
+				</not-equals>
+			</condition>
+			<command>property-assign</command>
+			<property>/it-autoflight/input/vert</property>
+			<value>1</value>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+    <type>select</type>
+    <object-name>VS_lit</object-name>
+    <condition>
+			<and>
+				<equals>
+					<property>/it-autoflight/output/vert</property>
+					<value>1</value>
+				</equals>
+				<equals>
+					<property>controls/electric/battery</property>
+					<value>true</value>
+				</equals>
+			</and>
+    </condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>VS_unlit</object-name>
+	<condition>
+		<not-equals>
+			<property>/it-autoflight/mode/vert</property>
+			<value>V/S</value>
+		</not-equals>
+	</condition>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>ALT_HOLD</object-name>
+	<object-name>ALT_HOLD.integ</object-name>
+	<object-name>ALT_HOLD_lit</object-name>
+	<object-name>ALT_HOLD_unlit</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>nasal</command>
+			<script>controls.click(3);</script>
+		</binding>
+		<binding>
+			<condition>
+				<not-equals>
+					<property>it-autoflight/input/vert</property>
+					<value>0</value>
+				</not-equals>
+			</condition>
+			<command>nasal</command>
+			<script>setprop("it-autoflight/input/vert",0);</script>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>ALT_HOLD_lit</object-name>
+	<condition>
+		<and>
+			<equals>
+				<property>it-autoflight/output/vert</property>
+				<value>0</value>
+			</equals>
+
+			<equals>
+				<property>controls/electric/battery</property>
+				<value>true</value>
+			</equals>
+		</and>
+	</condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>ALT_HOLD_unlit</object-name>
+	<condition>
+		<or>
+			<not-equals>
+				<property>it-autoflight/output/vert</property>
+				<value>0</value>
+			</not-equals>
+		</or>
+	</condition>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>sw.loc</object-name>
+	<object-name>sw.loc.integ</object-name>
+	<object-name>LOC_unlit</object-name>
+	<object-name>LOC_lit</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>nasal</command>
+			<script>controls.click(4);</script>
+		</binding>
+		<binding>
+			<command>property-assign</command>
+			<property>instrumentation/nav/slaved-to-gps</property>
+			<value type="bool">false</value>
+		</binding>
+		<binding>
+			<condition>
+				<not-equals>
+					<property>it-autoflight/input/lat</property>
+					<value>2</value>
+				</not-equals>
+			</condition>
+			<command>nasal</command>
+			<script>setprop("it-autoflight/input/lat",2);</script>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>LOC_lit</object-name>
+	<condition>
+		<and>
+			<equals>
+				<property>it-autoflight/input/lat</property>
+				<value>2</value>
+			</equals>
+			<equals>
+				<property>controls/electric/battery</property>
+				<value>true</value>
+			</equals>
+		</and>
+	</condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>LOC_unlit</object-name>
+	<condition>
+		<not-equals>
+			<property>it-autoflight/input/lat</property>
+			<value>2</value>
+		</not-equals>
+	</condition>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>sw.app</object-name>
+	<object-name>APP_unlit</object-name>
+	<object-name>APP_lit</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>nasal</command>
+			<script>controls.click(4);</script>
+		</binding>
+		<binding>
+			<condition>
+				<not-equals>
+					<property>it-autoflight/input/vert</property>
+					<value>2</value>
+				</not-equals>
+			</condition>
+			<command>nasal</command>
+			<script>setprop("it-autoflight/input/vert",2);</script>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>APP_lit</object-name>
+	<condition>
+		<and>
+			<equals>
+				<property>it-autoflight/input/vert</property>
+				<value>2</value>
+			</equals>
+			<equals>
+				<property>controls/electric/battery</property>
+				<value>true</value>
+			</equals>
+		</and>
+	</condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>APP_unlit</object-name>
+	<condition>
+		<not-equals>
+			<property>it-autoflight/input/vert</property>
+			<value>2</value>
+		</not-equals>
+	</condition>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>AT.toggle</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-toggle</command>
+			<property>/it-autoflight/input/athr-armed</property>
+		</binding>
+		<binding>
+			<condition>
+				<property>/it-autoflight/input/athr</property>
+			</condition>
+			<command>property-assign</command>
+			<property>/it-autoflight/input/athr</property>
+			<value>false</value>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>AT.toggle</object-name>
+	<property>/it-autoflight/input/athr-armed</property>
+	<factor>-45</factor>
+	<center>
+		<x-m>0.905</x-m>
+		<y-m>0</y-m>
+		<z-m>0.969</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>1</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>THR</object-name>
+	<object-name>THR.integ</object-name>
+	<object-name>THR_lit</object-name>
+	<object-name>THR_unlit</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>nasal</command>
+			<script>controls.click(3);Boeing747.afds.input(2,1);</script>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>THR_unlit</object-name>
+	<condition>
+		<not-equals>
+			<property>/instrumentation/afds/inputs/autothrottle-index</property>
+			<value>1</value>
+		</not-equals>
+	</condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>THR_lit</object-name>
+	<condition>
+		<equals>
+			<property>/instrumentation/afds/inputs/autothrottle-index</property>
+			<value>1</value>
+		</equals>
+	</condition>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>SPD</object-name>
+	<object-name>SPD.integ</object-name>
+	<object-name>SPD_lit</object-name>
+	<object-name>SPD_unlit</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>nasal</command>
+			<script>controls.click(3);</script>
+		</binding>
+		<binding>
+			<condition>
+				<property>it-autoflight/input/athr-armed</property>
+			</condition>
+			<command>property-toggle</command>
+			<property>it-autoflight/input/athr</property>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>SPD_lit</object-name>
+	<condition>
+		<and>
+			<equals>
+				<property>it-autoflight/input/athr</property>
+				<value>true</value>
+			</equals>
+			<equals>
+				<property>controls/electric/battery</property>
+				<value>true</value>
+			</equals>
+		</and>
+	</condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>SPD_unlit</object-name>
+	<condition>
+		<not-equals>
+			<property>it-autoflight/input/athr</property>
+			<value>true</value>
+		</not-equals>
+	</condition>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>FLCH</object-name>
+	<object-name>FLCH.integ</object-name>
+	<object-name>FLCH_lit</object-name>
+	<object-name>FLCH_unlit</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>nasal</command>
+			<script>controls.click(4);</script>
+		</binding>
+		<binding>
+			<condition>
+				<not-equals>
+					<property>it-autoflight/input/vert</property>
+					<value>4</value>
+				</not-equals>
+			</condition>
+			<command>nasal</command>
+			<script>setprop("it-autoflight/input/vert",4);</script>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>FLCH_lit</object-name>
+	<condition>
+		<and>
+			<equals>
+				<property>it-autoflight/input/vert</property>
+				<value>4</value>
+			</equals>
+			<equals>
+				<property>controls/electric/battery</property>
+				<value>true</value>
+			</equals>
+		</and>
+	</condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>FLCH_unlit</object-name>
+	<condition>
+		<not-equals>
+			<property>it-autoflight/input/vert</property>
+			<value>4</value>
+		</not-equals>
+	</condition>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>LNAV</object-name>
+	<object-name>LNAV.integ</object-name>
+	<object-name>LNAV_lit</object-name>
+	<object-name>LNAV_unlit</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>nasal</command>
+			<script>controls.click(3);</script>
+		</binding>
+		<binding>
+			<condition>
+				<not-equals>
+					<property>it-autoflight/input/lat</property>
+					<value>1</value>
+				</not-equals>
+			</condition>
+			<command>nasal</command>
+			<script>setprop("it-autoflight/input/lat",1);</script>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>LNAV_lit</object-name>
+	<condition>
+		<and>
+			<equals>
+				<property>it-autoflight/input/lat</property>
+				<value>1</value>
+			</equals>
+		</and>
+	</condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>LNAV_unlit</object-name>
+	<condition>
+		<not-equals>
+			<property>it-autoflight/input/lat</property>
+			<value>1</value>
+		</not-equals>
+	</condition>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>VNAV</object-name>
+	<object-name>VNAV.integ</object-name>
+	<object-name>VNAV_lit</object-name>
+	<object-name>VNAV_unlit</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>nasal</command>
+			<script>controls.click(4);Boeing747.afds.input(1,5);</script>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>VNAV_lit</object-name>
+	<condition>
+		<or>
+			<equals>
+				<property>instrumentation/afds/ap-modes/pitch-mode</property>
+				<value>VNAV ALT</value>
+			</equals>
+			<equals>
+				<property>instrumentation/afds/ap-modes/pitch-mode</property>
+				<value>VNAV SPD</value>
+			</equals>
+			<equals>
+				<property>instrumentation/afds/ap-modes/pitch-mode</property>
+				<value>VNAV PTH</value>
+			</equals>
+			<equals>
+				<property>instrumentation/afds/inputs/vertical-index</property>
+				<value>12</value>
+			</equals>
+		</or>
+	</condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>VNAV_unlit</object-name>
+	<condition>
+		<or>
+			<not-equals>
+				<property>instrumentation/afds/ap-modes/pitch-mode</property>
+				<value>VNAV ALT</value>
+			</not-equals>
+			<not-equals>
+				<property>instrumentation/afds/ap-modes/pitch-mode</property>
+				<value>VNAV SPD</value>
+			</not-equals>
+			<not-equals>
+				<property>instrumentation/afds/ap-modes/pitch-mode</property>
+				<value>VNAV PTH</value>
+			</not-equals>
+			<not-equals>
+				<property>instrumentation/afds/inputs/vertical-index</property>
+				<value>12</value>
+			</not-equals>
+		</or>
+	</condition>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>CMD_L</object-name>
+	<object-name>CMD_C</object-name>
+	<object-name>CMD_R</object-name>
+	<object-name>CMD_L.integ</object-name>
+	<object-name>CMD_C.integ</object-name>
+	<object-name>CMD_R.integ</object-name>
+	<object-name>CMD_L_lit</object-name>
+	<object-name>CMD_C_lit</object-name>
+	<object-name>CMD_R_lit</object-name>
+	<object-name>CMD_L_unlit</object-name>
+	<object-name>CMD_C_unlit</object-name>
+	<object-name>CMD_R_unlit</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-toggle</command>
+			<property>it-autoflight/input/ap1</property>
+		</binding>
+	</action>
+ </animation>
+
+<animation>
+	<type>select</type>
+	<object-name>CMD_L_lit</object-name>
+	<object-name>CMD_C_lit</object-name>
+	<object-name>CMD_R_lit</object-name>
+	<condition>
+		<property>it-autoflight/input/ap1</property>
+	</condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>CMD_L_unlit</object-name>
+	<object-name>CMD_C_unlit</object-name>
+	<object-name>CMD_R_unlit</object-name>
+	<condition>
+			<not>
+				<property>it-autoflight/input/ap1</property>
+			</not>
+	</condition>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>disengage</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-toggle</command>
+			<property>instrumentation/afds/inputs/AP-disengage</property>
+		</binding>
+		<binding>
+			<command>property-assign</command>
+			<property>it-autoflight/input/ap1</property>
+			<value>false</value>
+		</binding>
+		<binding>
+			<command>nasal</command>
+			<script>controls.click(3);Boeing747.afds.input(2,0);Boeing747.afds.ap_update();</script>
+		</binding>
+	</action>
+</animation>
+
+ <animation>
+	<type>translate</type>
+	<object-name>disengage</object-name>
+	<property>instrumentation/afds/inputs/AP-disengage</property>
+	<factor>-0.012</factor>
+	<center>
+	    <x-m>0</x-m>
+	    <y-m>0.1</y-m>
+	    <z-m>0</z-m>
+	</center>
+	<axis>
+	    <x>-0.3</x>
+	    <y>0</y>
+	    <z>1.0</z>
+	</axis>
+ </animation>
+
+<!-- EICAS -->
+
+<animation>
+	<type>pick</type>
+	<object-name>EICAS_eng</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-assign</command>
+			<property>/instrumentation/eicas/display</property>
+			<value type="string">ENG</value>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>EICAS_stat</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-assign</command>
+			<property>/instrumentation/eicas/display</property>
+			<value type="string">STAT</value>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>EICAS_elec</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-assign</command>
+			<property>/instrumentation/eicas/display</property>
+			<value type="string">ELEC</value>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>EICAS_fuel</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-assign</command>
+			<property>/instrumentation/eicas/display</property>
+			<value type="string">FUEL</value>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>EICAS_ecs</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-assign</command>
+			<property>/instrumentation/eicas/display</property>
+			<value type="string">ECS</value>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>EICAS_hyd</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-assign</command>
+			<property>/instrumentation/eicas/display</property>
+			<value type="string">HYD</value>
+		</binding>
+	</action>
+</animation>
+
+ <animation>
+		<type>pick</type>
+	<object-name>EICAS_ndb</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-assign</command>
+			<property>/instrumentation/eicas/display</property>
+			<value type="string">NDB</value>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>EICAS_gear</object-name>
+	<action>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>property-assign</command>
+			<property>/instrumentation/eicas/display</property>
+			<value type="string">GEAR</value>
+		</binding>
+	</action>
+</animation>
+
+<!-- efis-ctl 22/12/11 BR-NVS-->
+
+    <animation>
+        <type>rotate</type>
+        <object-name>BARO.knob.R</object-name>
+        <property>instrumentation/efis/inputs/kpa-mode</property>
+        <factor>80</factor>
+        <center>
+            <x-m>0.908</x-m>
+            <y-m>0.3515</y-m>
+            <z-m>0.971</z-m>
+        </center>
+        <axis>
+            <x>-2</x>
+            <y>0</y>
+            <z>-1.0</z>
+        </axis>
+    </animation>
+    <animation>
+        <type>rotate</type>
+        <object-name>BARO.knob.L</object-name>
+        <property>instrumentation/efis/inputs/kpa-mode</property>
+        <factor>80</factor>
+        <center>
+            <x-m>0.914</x-m>
+            <y-m>-0.275</y-m>
+            <z-m>0.975</z-m>
+        </center>
+        <axis>
+            <x>-2</x>
+            <y>0</y>
+            <z>-1.0</z>
+        </axis>
+    </animation>
+    <animation>
+	<type>pick</type>
+	<object-name>BARO.knob.L</object-name>
+	<object-name>BARO.knob.R</object-name>
+	<action>
+	    <button>0</button>
+	    <repeatable>false</repeatable>
+	    <binding>
+		<command>property-toggle</command>
+		<property>instrumentation/efis/inputs/kpa-mode</property>
+	    </binding>
+	</action>
+    </animation>
+    <animation>
+	<type>pick</type>
+	<object-name>BARO.knob2.L</object-name>
+	<object-name>BARO.knob2.R</object-name>
+	<action>
+	    <button>0</button>
+	    <button>3</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>property-adjust</command>
+                <property>instrumentation/altimeter/setting-inhg</property>
+                <step>0.01</step>
+                <min>26.0</min>
+                <max>33.0</max>
+                <wrap>false</wrap>
+            </binding>
+            <binding>
+                <command>nasal</command>
+                <script>controls.click(4);</script>
+            </binding>
+	</action>
+	<action>
+	    <button>1</button>
+	    <button>4</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>property-adjust</command>
+                <property>instrumentation/altimeter/setting-inhg</property>
+                <step>-0.01</step>
+                <min>26.0</min>
+                <max>33.0</max>
+                <wrap>false</wrap>
+            </binding>
+            <binding>
+                <command>nasal</command>
+                <script>controls.click(4);</script>
+            </binding>
+	</action>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>Range.knob.R</object-name>
+        <property>instrumentation/efis[1]/inputs/range</property>
+        <interpolation>
+            <entry><ind>10</ind><dep>0</dep></entry>
+            <entry><ind>20</ind><dep>30</dep></entry>
+            <entry><ind>40</ind><dep>60</dep></entry>
+            <entry><ind>80</ind><dep>90</dep></entry>
+            <entry><ind>160</ind><dep>120</dep></entry>
+            <entry><ind>320</ind><dep>150</dep></entry>
+            <entry><ind>640</ind><dep>180</dep></entry>
+        </interpolation>
+        <center>
+            <x-m>0.918</x-m>
+            <y-m>0.3335</y-m>
+            <z-m>0.951</z-m>
+        </center>
+        <axis>
+            <x>-2</x>
+            <y>0</y>
+            <z>-1.0</z>
+        </axis>
+    </animation>
+    <animation>
+	<type>pick</type>
+	<object-name>Range.knob.R</object-name>
+	<action>
+	    <button>0</button>
+	    <button>3</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("range",1);</script>
+            </binding>
+	</action>
+	<action>
+	    <button>1</button>
+	    <button>4</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("range",-1);</script>
+            </binding>
+	</action>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>Range.knob.L</object-name>
+        <property>instrumentation/efis/inputs/range</property>
+        <interpolation>
+            <entry><ind>10</ind><dep>0</dep></entry>
+            <entry><ind>20</ind><dep>30</dep></entry>
+            <entry><ind>40</ind><dep>60</dep></entry>
+            <entry><ind>80</ind><dep>90</dep></entry>
+            <entry><ind>160</ind><dep>120</dep></entry>
+            <entry><ind>320</ind><dep>150</dep></entry>
+            <entry><ind>640</ind><dep>180</dep></entry>
+        </interpolation>
+        <center>
+            <x-m>0.917</x-m>
+            <y-m>-0.293</y-m>
+            <z-m>0.951</z-m>
+        </center>
+        <axis>
+            <x>-2</x>
+            <y>0</y>
+            <z>-1.0</z>
+        </axis>
+    </animation>
+    <animation>
+	<type>pick</type>
+	<object-name>Range.knob.L</object-name>
+	<action>
+	    <button>0</button>
+	    <button>3</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("range",1);</script>
+            </binding>
+	</action>
+	<action>
+	    <button>1</button>
+	    <button>4</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("range",-1);</script>
+            </binding>
+	</action>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>MINS.knob.R</object-name>
+        <property>instrumentation/efis/inputs/minimums-mode</property>
+        <factor>80</factor>
+        <center>
+            <x-m>0.908</x-m>
+            <y-m>0.2760</y-m>
+            <z-m>0.971</z-m>
+        </center>
+        <axis>
+            <x>-2</x>
+            <y>0</y>
+            <z>-1.0</z>
+        </axis>
+    </animation>
+    <animation>
+        <type>rotate</type>
+	<object-name>MINS.knob.L</object-name>
+        <property>instrumentation/efis/inputs/minimums-mode</property>
+        <factor>80</factor>
+        <center>
+            <x-m>0.914</x-m>
+            <y-m>-0.3505</y-m>
+            <z-m>0.975</z-m>
+        </center>
+        <axis>
+            <x>-2</x>
+            <y>0</y>
+            <z>-1.0</z>
+        </axis>
+    </animation>
+    <animation>
+	<type>pick</type>
+	<object-name>MINS.knob.L</object-name>
+	<object-name>MINS.knob.R</object-name>
+	<action>
+	    <button>0</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("mins",0);</script>
+            </binding>
+	</action>
+    </animation>
+    <animation>
+	<type>pick</type>
+	<object-name>MINS.knob2.L</object-name>
+	<object-name>MINS.knob2.R</object-name>
+	<action>
+	    <button>0</button>
+	    <button>3</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("dh",10);</script>
+            </binding>
+	</action>
+	<action>
+	    <button>1</button>
+	    <button>4</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("dh",-10);</script>
+            </binding>
+	</action>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>MODE.knob.L</object-name>
+        <property>instrumentation/efis/mfd/mode-num</property>
+        <interpolation>
+            <entry><ind>0</ind><dep>0</dep></entry>
+            <entry><ind>1</ind><dep>30</dep></entry>
+            <entry><ind>2</ind><dep>60</dep></entry>
+            <entry><ind>3</ind><dep>90</dep></entry>
+        </interpolation>
+        <center>
+            <x-m>0.917</x-m>
+            <y-m>-0.3315</y-m>
+            <z-m>0.951</z-m>
+        </center>
+        <axis>
+            <x>-2</x>
+            <y>0</y>
+            <z>-1</z>
+        </axis>
+    </animation>
+    <animation>
+	<type>pick</type>
+        <object-name>MODE.knob.L</object-name>
+	<action>
+	    <button>0</button>
+			<button>3</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("display",1);</script>
+            </binding>
+	</action>
+	<action>
+	    <button>1</button>
+			<button>4</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("display",-1);</script>
+            </binding>
+	</action>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>MODE.knob.R</object-name>
+        <property>instrumentation/efis[1]/mfd/mode-num</property>
+        <interpolation>
+            <entry><ind>0</ind><dep>0</dep></entry>
+            <entry><ind>1</ind><dep>30</dep></entry>
+            <entry><ind>2</ind><dep>60</dep></entry>
+            <entry><ind>3</ind><dep>90</dep></entry>
+        </interpolation>
+        <center>
+            <x-m>0.921</x-m>
+            <y-m>0.295</y-m>
+            <z-m>0.952</z-m>
+        </center>
+        <axis>
+            <x>-2</x>
+            <y>0</y>
+            <z>-1.0</z>
+        </axis>
+    </animation>
+    <animation>
+	<type>pick</type>
+        <object-name>MODE.knob.R</object-name>
+	<action>
+	    <button>0</button>
+			<button>3</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("display",1);</script>
+            </binding>
+	</action>
+	<action>
+	    <button>1</button>
+			<button>4</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("display",-1);</script>
+            </binding>
+	</action>
+    </animation>
+
+    <animation>
+        <type>translate</type>
+        <object-name>LVOR.toggle.L</object-name>
+        <property>instrumentation/efis/inputs/lh-vor-adf</property>
+        <factor>0.003</factor>
+        <center>
+            <x-m>0.0</x-m>
+            <y-m>-0.048</y-m>
+            <z-m>-0.0</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>1</z>
+        </axis>
+    </animation>
+    <animation>
+	<type>pick</type>
+        <object-name>LVOR.toggle.L</object-name>
+	<action>
+	    <button>0</button>
+			<button>3</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("lhvor",1);</script>
+            </binding>
+	</action>
+	<action>
+	    <button>1</button>
+			<button>4</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("lhvor",-1);</script>
+            </binding>
+	</action>
+    </animation>
+
+    <animation>
+        <type>translate</type>
+        <object-name>RVOR.toggle.L</object-name>
+        <property>instrumentation/efis/inputs/rh-vor-adf</property>
+        <factor>0.003</factor>
+        <center>
+            <x-m>0.0</x-m>
+            <y-m>0.052</y-m>
+            <z-m>0.0</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>1</z>
+        </axis>
+    </animation>
+    <animation>
+	<type>pick</type>
+        <object-name>RVOR.toggle.L</object-name>
+	<action>
+	    <button>0</button>
+			<button>3</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("rhvor",1);</script>
+            </binding>
+	</action>
+	<action>
+	    <button>1</button>
+			<button>4</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("rhvor",-1);</script>
+            </binding>
+	</action>
+    </animation>
+
+    <animation>
+        <type>translate</type>
+        <object-name>LVOR.toggle.R</object-name>
+        <property>instrumentation/efis[1]/inputs/lh-vor-adf</property>
+        <factor>0.003</factor>
+        <center>
+            <x-m>0.0</x-m>
+            <y-m>-0.048</y-m>
+            <z-m>-0.0</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>1</z>
+        </axis>
+    </animation>
+    <animation>
+	<type>pick</type>
+        <object-name>LVOR.toggle.R</object-name>
+	<action>
+	    <button>0</button>
+			<button>3</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("lhvor",1);</script>
+            </binding>
+	</action>
+	<action>
+	    <button>1</button>
+			<button>4</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("lhvor",-1);</script>
+            </binding>
+	</action>
+    </animation>
+
+    <animation>
+        <type>translate</type>
+        <object-name>RVOR.toggle.R</object-name>
+        <property>instrumentation/efis[1]/inputs/rh-vor-adf</property>
+        <factor>0.003</factor>
+        <center>
+            <x-m>0.0</x-m>
+            <y-m>-0.048</y-m>
+            <z-m>-0.0</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>1</z>
+        </axis>
+    </animation>
+    <animation>
+	<type>pick</type>
+        <object-name>RVOR.toggle.R</object-name>
+	<action>
+	    <button>0</button>
+			<button>3</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("rhvor",1);</script>
+            </binding>
+	</action>
+	<action>
+	    <button>1</button>
+			<button>4</button>
+	    <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("rhvor",-1);</script>
+            </binding>
+	</action>
+    </animation>
+<!--
+#############   hotspots   ############## -->
+
+    <animation>
+        <type>pick</type>
+        <object-name>ND.center.L</object-name>
+				<object-name>ND.center.L.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("center",0);</script>
+            </binding>
+        </action>
+    </animation>
+    <animation>
+        <type>pick</type>
+        <object-name>ND.center.R</object-name>
+				<object-name>ND.center.R.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("center",0);</script>
+            </binding>
+        </action>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>Mtrs.btn.L</object-name>
+        <object-name>Mtrs.btn.R</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>property-toggle</command>
+                <property>instrumentation/efis/inputs/alt-meters</property>
+            </binding>
+            <binding>
+                <command>nasal</command>
+                <script>controls.click(4);</script>
+            </binding>
+        </action>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>FPV.btn.L</object-name>
+        <object-name>FPV.btn.R</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>property-toggle</command>
+                <property>instrumentation/efis/inputs/fpv-view</property>
+            </binding>
+            <binding>
+                <command>nasal</command>
+                <script>controls.click(4);</script>
+            </binding>
+        </action>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>RDR.pos.L</object-name>
+        <object-name>RDR.pos.R</object-name>
+				<object-name>RDR.pos.L.integ</object-name>
+				<object-name>RDR.pos.R.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>property-toggle</command>
+                <property>instrumentation/radar/display-controls/pos</property>
+            </binding>
+            <binding>
+                <command>nasal</command>
+                <script>controls.click(3);</script>
+            </binding>
+        </action>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>RDR.data.L</object-name>
+        <object-name>RDR.data.R</object-name>
+				<object-name>RDR.data.L.integ</object-name>
+				<object-name>RDR.data.R.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>property-toggle</command>
+                <property>instrumentation/radar/display-controls/data</property>
+            </binding>
+            <binding>
+                <command>nasal</command>
+                <script>controls.click(3);</script>
+            </binding>
+        </action>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>RDR.terr.L</object-name>
+				<object-name>RDR.terr.L.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("terr",0);</script>
+            </binding>
+        </action>
+    </animation>
+    <animation>
+        <type>pick</type>
+        <object-name>RDR.terr.R</object-name>
+				<object-name>RDR.terr.R.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("terr",0);</script>
+            </binding>
+        </action>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>RDR.arpt.L</object-name>
+				<object-name>RDR.arpt.L.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("arpt",0);</script>
+            </binding>
+        </action>
+    </animation>
+    <animation>
+        <type>pick</type>
+        <object-name>RDR.arpt.R</object-name>
+				<object-name>RDR.arpt.R.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("arpt",0);</script>
+            </binding>
+        </action>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>RDR.wpt.L</object-name>
+				<object-name>RDR.wpt.L.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("wpt",0);</script>
+            </binding>
+        </action>
+    </animation>
+    <animation>
+        <type>pick</type>
+        <object-name>RDR.wpt.R</object-name>
+				<object-name>RDR.wpt.R.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("wpt",0);</script>
+            </binding>
+        </action>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>RDR.sta.L</object-name>
+				<object-name>RDR.sta.L.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("sta",0);</script>
+            </binding>
+        </action>
+    </animation>
+    <animation>
+        <type>pick</type>
+        <object-name>RDR.sta.R</object-name>
+				<object-name>RDR.sta.R.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("sta",0);</script>
+            </binding>
+        </action>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>RDR.wxr.L</object-name>
+				<object-name>RDR.wxr.L.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("wxr",0);</script>
+            </binding>
+        </action>
+    </animation>
+    <animation>
+        <type>pick</type>
+        <object-name>RDR.wxr.R</object-name>
+				<object-name>RDR.wxr.R.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("wxr",0);</script>
+            </binding>
+        </action>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>TFC.L</object-name>
+				<object-name>TFC.L.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("tfc",1);</script>
+            </binding>
+        </action>
+	<action>
+	    <button>3</button>
+            <repeatable>false</repeatable>
+	    <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("range",1);</script>
+            </binding>
+	</action>
+	<action>
+	    <button>4</button>
+            <repeatable>false</repeatable>
+	    <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("range",-1);</script>
+            </binding>
+	</action>
+    </animation>
+    <animation>
+        <type>pick</type>
+        <object-name>TFC.R</object-name>
+				<object-name>TFC.R.integ</object-name>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("tfc",1);</script>
+            </binding>
+        </action>
+	<action>
+	    <button>3</button>
+            <repeatable>false</repeatable>
+	    <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("range",1);</script>
+            </binding>
+	</action>
+	<action>
+	    <button>4</button>
+            <repeatable>false</repeatable>
+	    <binding>
+                <command>nasal</command>
+                <script>Boeing747.EfisR.ctl_func("range",-1);</script>
+            </binding>
+	</action>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>inhg.reset.L</object-name>
+				<object-name>inhg.reset.L.integ</object-name>
+        <object-name>inhg.reset.R</object-name>
+				<object-name>inhg.reset.R.integ</object-name>
+        <visible>true</visible>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>property-assign</command>
+                <property>instrumentation/altimeter/setting-inhg</property>
+                <value>29.92</value>
+            </binding>
+            <binding>
+                <command>nasal</command>
+                <script>controls.click(3);</script>
+            </binding>
+        </action>
+	<action>
+	    <button>3</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>property-adjust</command>
+                <property>instrumentation/altimeter/setting-inhg</property>
+                <step>0.01</step>
+                <min>26.0</min>
+                <max>33.0</max>
+                <wrap>false</wrap>
+            </binding>
+            <binding>
+                <command>nasal</command>
+                <script>controls.click(3);</script>
+            </binding>
+	</action>
+	<action>
+	    <button>4</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>property-adjust</command>
+                <property>instrumentation/altimeter/setting-inhg</property>
+                <step>-0.01</step>
+                <min>26.0</min>
+                <max>33.0</max>
+                <wrap>false</wrap>
+            </binding>
+            <binding>
+                <command>nasal</command>
+                <script>controls.click(3);</script>
+            </binding>
+	</action>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>DH.reset.L</object-name>
+				<object-name>DH.reset.L.integ</object-name>
+        <object-name>DH.reset.R</object-name>
+				<object-name>DH.reset.R.integ</object-name>
+        <visible>true</visible>
+        <action>
+            <button>0</button>
+            <repeatable>false</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("dh",0);</script>
+            </binding>
+        </action>
+        <action>
+            <button>3</button>
+            <repeatable>true</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("dh",10);</script>
+            </binding>
+        </action>
+        <action>
+            <button>4</button>
+            <repeatable>true</repeatable>
+            <binding>
+                <command>nasal</command>
+                <script>Boeing747.Efis.ctl_func("dh",-10);</script>
+            </binding>
+        </action>
+    </animation>
+
+</PropertyList>

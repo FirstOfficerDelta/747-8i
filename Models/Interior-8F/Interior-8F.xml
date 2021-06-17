@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+
+<path>Interior-8F.ac</path>
+
+<animation>
+  <type>material</type>
+  <object-name>InteriorWalls</object-name>
+  <object-name>MainFlightDeck</object-name>
+  <property-base>sim/model/interior</property-base>
+  <texture-prop>texture</texture-prop>
+  <texture>Interior-8F.png</texture>
+</animation>
+
+</PropertyList>
