@@ -2591,11 +2591,18 @@
 		<object-name>FLG_RL_out</object-name>
 	</effect>
 
-	<effect>
+  <effect>
 		<name>Wing lightmap</name>
 		<inherits-from>Aircraft/747-8i/Models/Effects/lightmap_wing</inherits-from>
 		<object-name>wing</object-name>
+    <object-name>wing.001</object-name>
 		<object-name>slat</object-name>
+    <object-name>slat_01_L</object-name>
+    <object-name>slat_02_L</object-name>
+    <object-name>slat_03_L</object-name>
+    <object-name>slat_01_R</object-name>
+    <object-name>slat_02_R</object-name>
+    <object-name>slat_03_R</object-name>
 		<object-name>aileron_L</object-name>
 		<object-name>external_flap_L</object-name>
 		<object-name>aileron_int_L</object-name>
@@ -2607,14 +2614,14 @@
 		<object-name>speedbrake_3_L</object-name>
 		<object-name>speedbrake_1_L</object-name>
 		<object-name>speedbrake_2_L</object-name>
-		<!--object-name>flap_compart_LB_3</object-name>
+		<object-name>flap_compart_LB_3</object-name>
 		<object-name>flap_compart_LF_3</object-name>
 		<object-name>flap_compart_LF_4</object-name>
 		<object-name>flap_compart_LB_4</object-name>
 		<object-name>flap_compart_LF_2</object-name>
 		<object-name>flap_compart_LB_2</object-name>
 		<object-name>flap_compart_LF_1</object-name>
-		<object-name>flap_compart_LB_1</object-name-->
+		<object-name>flap_compart_LB_1</object-name>
 		<object-name>aileron_R</object-name>
 		<object-name>external_flap_R</object-name>
 		<object-name>aileron_int_R</object-name>
@@ -2626,14 +2633,14 @@
 		<object-name>speedbrake_3_R</object-name>
 		<object-name>speedbrake_1_R</object-name>
 		<object-name>speedbrake_2_R</object-name>
-		<!--object-name>flap_compart_RB_3</object-name>
+		<object-name>flap_compart_RB_3</object-name>
 		<object-name>flap_compart_RF_3</object-name>
 		<object-name>flap_compart_RF_4</object-name>
 		<object-name>flap_compart_RB_4</object-name>
 		<object-name>flap_compart_RF_2</object-name>
 		<object-name>flap_compart_RB_2</object-name>
 		<object-name>flap_compart_RF_1</object-name>
-		<object-name>flap_compart_RB_1</object-name-->
+		<object-name>flap_compart_RB_1</object-name>
 		<object-name>hstab_L</object-name>
 		<object-name>elevator_left</object-name>
 		<object-name>hstab_R</object-name>
