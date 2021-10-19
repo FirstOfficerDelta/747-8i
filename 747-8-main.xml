@@ -554,7 +554,7 @@
 
 		<lighting>
 			<instruments-norm type="double">0.2</instruments-norm>
-			<panel-norm>0.2</panel-norm>
+			<panel-norm>0</panel-norm>
 			<landing-lights type="bool">0</landing-lights>
 			<landing-lights type="bool">0</landing-lights>
 			<landing-lights type="bool">0</landing-lights>
