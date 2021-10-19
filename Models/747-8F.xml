@@ -161,7 +161,7 @@
   <path>Aircraft/747-8i/Models/Interior-8F/Interior-8F.xml</path>
 </model>
 
-<animation>
+<!--animation>
   <type>select</type>
   <object-name>Interior-8F</object-name>
   <condition>
@@ -197,7 +197,7 @@
       </greater-than>
     </or>
   </condition>
-</animation>
+</animation-->
 
 <!-- Pushback -->
 <model>
