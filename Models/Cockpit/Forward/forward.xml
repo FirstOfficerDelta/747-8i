@@ -2,6 +2,7 @@
 
 <path>forward.ac</path>
 
+<!--Lighting-->
 <animation>
   <type>material</type>
   <object-name>forward_panel</object-name>
