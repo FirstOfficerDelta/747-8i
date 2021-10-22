@@ -3,6 +3,12 @@
 
 <path>Interior-8F.ac</path>
 
+<effect>
+  <inherits-from>Effects/model-combined</inherits-from>
+  <object-name>InteriorWalls</object-name>
+  <object-name>MainFlightDeck</object-name>
+</effect>
+
 <animation>
   <type>material</type>
   <object-name>InteriorWalls</object-name>

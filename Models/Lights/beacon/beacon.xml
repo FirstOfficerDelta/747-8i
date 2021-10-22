@@ -3,7 +3,7 @@
 <PropertyList>
 
   <path>beacon.ac</path>
-  
+
   <animation>
     <type>noshadow</type>
     <object-name>Beacon02</object-name>
@@ -73,7 +73,7 @@
         <factor>0.01</factor>
         <offset>1.0</offset>
         <min>1</min>
-        <max>500.0</max>
+        <max>3.0</max>
     </animation>
 
 </PropertyList>

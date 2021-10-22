@@ -3,7 +3,7 @@
 <PropertyList>
 
   <path>whiteflash.ac</path>
-  
+
   <animation>
     <type>noshadow</type>
     <object-name>Strobe01</object-name>
@@ -54,15 +54,15 @@
       </entry>
       <entry>
         <ind>1500</ind>
-        <dep>20</dep>
+        <dep>5</dep>
       </entry>
       <entry>
         <ind>3500</ind>
-        <dep>25</dep>
+        <dep>10</dep>
       </entry>
       <entry>
         <ind>20500</ind>
-        <dep>25</dep>
+        <dep>10</dep>
       </entry>
     </interpolation>
   </animation>
