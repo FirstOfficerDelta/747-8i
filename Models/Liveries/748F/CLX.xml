@@ -4,15 +4,15 @@
 <sim>
     <model>
 			<livery>
-				<name type="string">Cargolux</name>
-				<texture>Liveries/748F/cargolux.png</texture>
+				<name type="string">CLX Cargolux</name>
+				<texture>Liveries/748F/CLX.png</texture>
 			</livery>
 			<turbofans>
-				<name type="string">Cargolux</name>
+				<name type="string">CLX Cargolux</name>
 				<texture>Liveries/748F/turbofan.png</texture>
 			</turbofans>
 			<wings>
-				<name type="string">Cargolux</name>
+				<name type="string">CLX Cargolux</name>
 				<texture>Liveries/748F/wings.png</texture>
 			</wings>
     </model>

@@ -4,15 +4,15 @@
 <sim>
     <model>
 			<livery>
-				<name type="string">Saudia Cargo</name>
+				<name type="string">SVA Saudia Cargo</name>
 				<texture>Liveries/748F/SVA.png</texture>
 			</livery>
 			<turbofans>
-				<name type="string">Saudia Cargo</name>
-				<texture>Liveries/748F/SVA turbofan.png</texture>
+				<name type="string">SVA Saudia Cargo</name>
+				<texture>Liveries/748F/SVA_turbofan.png</texture>
 			</turbofans>
 			<wings>
-				<name type="string">Saudia Cargo</name>
+				<name type="string">SVA Saudia Cargo</name>
 				<texture>Liveries/748F/wings.png</texture>
 			</wings>
     </model>

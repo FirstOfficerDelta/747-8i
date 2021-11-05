@@ -4,15 +4,15 @@
 <sim>
     <model>
 			<livery>
-				<name type="string">British Airways World Cargo</name>
-				<texture>Liveries/748F/bawc.png</texture>
+				<name type="string">BAW British Airways World Cargo</name>
+				<texture>Liveries/748F/BAW.png</texture>
 			</livery>
 			<turbofans>
-				<name type="string">British Airways World Cargo</name>
-				<texture>Liveries/748F/bawc_engines.png</texture>
+				<name type="string">BAW British Airways World Cargo</name>
+				<texture>Liveries/748F/BAW_engines.png</texture>
 			</turbofans>
 			<wings>
-				<name type="string">British Airways World Cargo</name>
+				<name type="string">BAW British Airways World Cargo</name>
 				<texture>Liveries/748F/wings.png</texture>
 			</wings>
     </model>

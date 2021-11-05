@@ -4,15 +4,15 @@
 <sim>
     <model>
 			<livery>
-				<name type="string">Planet Express</name>
+				<name type="string">[FIC] Planet Express</name>
 				<texture>Liveries/748F/PlanEx.png</texture>
 			</livery>
 			<turbofans>
-				<name type="string">Planet Express</name>
+				<name type="string">[FIC] Planet Express</name>
 				<texture>Liveries/748F/PlanEx_engines.png</texture>
 			</turbofans>
 			<wings>
-				<name type="string">Planet Express</name>
+				<name type="string">[FIC] Planet Express</name>
 				<texture>Liveries/748F/PlanEx_wings.png</texture>
 			</wings>
     </model>

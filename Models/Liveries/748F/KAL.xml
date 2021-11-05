@@ -4,15 +4,15 @@
 <sim>
     <model>
 			<livery>
-				<name type="string">Korean Air Cargo</name>
+				<name type="string">KAL Korean Air Cargo</name>
 				<texture>Liveries/748F/KAL-cargo.png</texture>
 			</livery>
 			<turbofans>
-				<name type="string">Korean Air Cargo</name>
+				<name type="string">KAL Korean Air Cargo</name>
 				<texture>Liveries/748F/KAL-cargo_turbofan.png</texture>
 			</turbofans>
 			<wings>
-				<name type="string">Korean Air Cargo</name>
+				<name type="string">KAL Korean Air Cargo</name>
 				<texture>Liveries/748F/wings.png</texture>
 			</wings>
     </model>

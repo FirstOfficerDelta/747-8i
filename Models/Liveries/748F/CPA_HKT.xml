@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Cathay Pacific Cargo "Hong Kong Trader" 748 livery by E-Savageair-
+
+It all began on Sept. 24, 1946 an American, Roy C. Ferrell and an Australian
+Sydney de Kantzow, both ex-air force pilots put up $1 in Hong Kong Money to
+register a new airline.  It would be called Cathay Pacific Airways.  According
+to legend, the name was conceived by Farrell and correspondents at a bar in the
+Manila Hotel, in the Philippines.  The name "Cathay" came from China as
+"Khitan" and "Pacific" to mean that according to Farrell, they would one day
+fly across the Pacific (that would eventually happen in the '70s.)  The Chinese
+name for the company comes from the Chinese idiom "Grand and Peaceful State, and
+at the time was often used by businesses called "Cathay" in english.-
+
+In 1948, Butterfield and Swire (Now known as Swire Group) Bought 45% of the new
+airline, Australian National Airways taking 35% with Farrell and de Kantzow
+taking 10% of their new airline.-
+
+The first flight began on July 1, 1948 with a DC-3 nicknamed "Betsy," flying
+routes from Hong Kong, Manila, and on to Singapore, Shanghai, Canton, and
+Sydney.  The airline grew quickly they would then acquire a second DC-3 aircraft
+they would name "Niki", and by then they would have three more aircraft.
+Swire later required 52% of the airline; today the Swire Group still holds 45%
+of the airline.-
+
+The airline prospered in the late 1950's, helped by its purchase of Hong Kong
+Airways on July 1, 1959. Cathay Pacific would expand in the '60s, flying to Fukuoka,
+Nagoya, and Osaka in Japan. By 1964 Cathay had flown its one millionth passenger and
+entered into the jet age with their first jet airliner, the Convair 880. In the 1970's
+Cathay Pacific installed computerized reservation systems and flight simulators. CPA
+had already been flying wide-body jets, namely the Lockheed L-1011. In 1979 they would
+buy their first Boeing 747, the first of many. They would go on to be one of the biggest
+operators of the type. The next year, the Hong Kong based airline applied for traffic rights
+flying to London with the first flight taking place on July 16, 1980.-
+
+By the mid '80s CP's destinations would include North American routes flying
+into San Francisco and Vancouver, Canada. Today Cathay Pacific serves 168
+destinations in 42 countries on five continents, with a well-developed Asian
+network. The airline connects to many cites around the world through One world
+and codeshare partners, American Airlines and British Airways, and with French
+national rail operator SNCF, from Paris; they also have access to 17
+destinations in China with its subsidiary, Dragonair, and became the world's
+tenth largest airline measured by sales.-
+
+In 1994, CP introduced the "brushwing" livery that's depicted here, which
+featured the calligraphic stroke against a green background on the vertical
+stabilizer vs. the older green and white striping with the British flag on the
+corner of the tail fin; on the fuselage is white on the top half of the
+aircraft with the powder-blue striping in the middle of the fuselage and a
+lower shade of white near the bottom.  Near the top on upper deck are the
+brandlines, "Asia's world city" and the "Hong Kong" brand logo.
+This all would tie in with the handover of the Hong Kong administration
+to the People's Republic of China from the British on July 1, 1997.-
+
+In 1998 on the heels of the handover, Cathay Pacific made some historic steps of
+it's own: On May 21st, CPA took a ceremonial delivery of the first Boeing 777-300
+at Boeing's assembly plant in Everett; on September 21, along with American Airlines,
+British Airways, Canadian Airlines (later to become part of Air Canada), and Qantas
+co-founded the Oneworld airline alliance. It was on July 6, 1998 that became the sign of a
+new era: On that day, Cathay Pacific flight 251 to London Heathrow Airport closed
+the chapter on Kai Tak International Airport after 73 years of operation.
+(Kai Tak lives on in FlightGear....) That meant a new chapter was beginning: The next day
+from John F. Kennedy Airport, Cathay flt. 889 flown by Capt. Paul Horsting with
+Capt. Mike Lowes, and First Officer Kelivn Ma was flown in the world's first transpolar
+flight from New York to Hong Kong.  Dubbed "Polar One", the flight lasted 16 hours, landing
+at the new Hong Kong International Airport, in Chek Lap Kok, Hong Kong, beginning a new chapter
+of commercial airline sevrice.  It was Cathay Pacific's longest nonstop flight and the
+longest in the world at 8,055 miles.-
+
+In 2010, Cathay Pacific became the world's largest international cargo airline with
+a main hub in Hong Kong International Airport becoming the world's busiest airport
+in regards to cargo traffic.  The following year, Cathay would receive the first of its 14
+fleet of 747-8F aircraft for cargo service. On Novemeber 2011, the airline received its
+second 747-8F and this one would be special. To commemorate their new cargo terminal,
+Cathay painted the second 747-8F now registered as B-LJA in a unqiue powder-blue and
+white diamond pattern livery with the name "Hong Kong Trader" which was named
+for the very first 747 freighter that entered Cathay Pacific's cargo fleet in 1982.
+This is the livery being depicted.-
+
+To fly in a "Grand and Peaceful State",
+First unzip the xml/png. files to: -
+
+FlightGear/data/aircraft/747-8i/models/liveries/747-8F.
+Run FlightGear, if your have the "Hong Kong Trader", consider your,
+"Life Well Traveled"....
+
+
+Thank you for downloading ;-)
+
+ESA
+-->
+
+<PropertyList>
+<sim>
+    <model>
+			<livery>
+				<name type="string">CPA Cathay Pacific Cargo "Hong Kong Trader"</name>
+				<texture>Liveries/748F/CPA_HKT.png</texture>
+			</livery>
+			<nightlights>
+				<name type="string">CPA Cathay Pacific Cargo</name>
+				<texture>Liveries/748F/CPA_HKT-lights.png</texture>
+			</nightlights>
+			<turbofans>
+				<name type="string">CPA Cathay Pacific Cargo</name>
+				<texture>Liveries/748F/CPA_HKT_turbofan.png</texture>
+			</turbofans>
+			<wings>
+				<name type="string">CPA Cathay Pacific Cargo</name>
+				<texture>Liveries/748F/wings.png</texture>
+			</wings>
+			<nightwings>
+				<name type="string">CPA Cathay Pacific Cargo</name>
+				<texture>Liveries/748F/CPA_HKT_wings-lts.png</texture>
+			</nightwings>
+			<nightengines>
+				<name type="string">CPA Cathay Pacific Cargo</name>
+				<texture>Liveries/748F/CPA_HKT_turbofan-lts.png</texture>
+			</nightengines>
+    </model>
+</sim>
+</PropertyList>

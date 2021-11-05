@@ -33,7 +33,7 @@ and codeshare partners, American Airlines and British Airways, and with French
 national rail operator SNCF, from Paris; they also have access to 17
 destinations in China with its subsidiary, Dragonair.
 
-In 1994, CP introduced the "brushwing" livery that's depicted here, which
+In 1994, CX introduced the "brushwing" livery that's depicted here, which
 featured the calligraphic stroke against a green background on the vertical
 stabilizer vs. the older green and white striping with the British flag on the
 corner of the tail fin; on the fuselage is white on the top half of the
@@ -50,29 +50,20 @@ ESA
 <sim>
     <model>
 			<livery>
-				<name type="string">CPA Cathay Pacific Cargo</name>
-				<texture>Liveries/748F/CPA.png</texture>
+				<name type="string">CPA Cathay Pacific Cargo (2015)</name>
+				<texture>Liveries/748F/CPA_2015.png</texture>
 			</livery>
-			<nightlights>
-				<name type="string">CPA Cathay Pacific Cargo</name>
-				<texture>Liveries/748F/CPA-lights.png</texture>
-			</nightlights>
+
 			<turbofans>
-				<name type="string">CPA Cathay Pacific Cargo</name>
-				<texture>Liveries/748F/CPA_turbofan.png</texture>
+				<name type="string">Cathay Pacific Cargo</name>
+				<texture>Liveries/748F/CPA_2015_turbofan.png</texture>
 			</turbofans>
 			<wings>
-				<name type="string">CPA Cathay Pacific Cargo</name>
+				<name type="string">Cathay Pacific Cargo</name>
 				<texture>Liveries/748F/wings.png</texture>
 			</wings>
-			<nightwings>
-				<name type="string">CPA Cathay Pacific Cargo</name>
-				<texture>Liveries/748F/wings-lts.png</texture>
-			</nightwings>
-			<nightengines>
-				<name type="string">CPA Cathay Pacific Cargo</name>
-				<texture>Liveries/748F/CPA_turbofan-lts.png</texture>
-			</nightengines>
+
+
     </model>
 </sim>
 </PropertyList>

@@ -5,7 +5,7 @@
     <model>
 			<livery>
 				<name type="string">Bare White</name>
-				<texture>Liveries/748F/fuselage.png</texture>
+				<texture>Liveries/748F/Default.png</texture>
 			</livery>
 			<turbofans>
 				<name type="string">Bare White</name>

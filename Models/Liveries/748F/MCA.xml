@@ -4,15 +4,15 @@
 <sim>
     <model>
 			<livery>
-				<name type="string">Merlion Cargo</name>
+				<name type="string">[FIC] MCA Merlion Cargo</name>
 				<texture>Liveries/748F/MCA.png</texture>
 			</livery>
 			<turbofans>
-				<name type="string">Merlion Cargo</name>
+				<name type="string">[FIC] MCA Merlion Cargo</name>
 				<texture>Liveries/748F/MCA_turbofan.png</texture>
 			</turbofans>
 			<wings>
-				<name type="string">Merlion Cargo</name>
+				<name type="string">[FIC] MCA Merlion Cargo</name>
 				<texture>Liveries/748F/wings.png</texture>
 			</wings>
     </model>
