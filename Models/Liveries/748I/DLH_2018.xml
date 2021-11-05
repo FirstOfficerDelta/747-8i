@@ -9,7 +9,7 @@
 			</livery>
 			<turbofans>
 				<name type="string">DLH Lufthansa (2018)</name>
-				<texture>Liveries/748I/DLH_turbofan.png</texture>
+				<texture>Liveries/748I/DLH_2018_turbofan.png</texture>
 			</turbofans>
 			<wings>
 				<name type="string">DLH Lufthansa (2018)</name>
