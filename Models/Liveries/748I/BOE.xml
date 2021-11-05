@@ -4,15 +4,15 @@
 <sim>
     <model>
 	<livery>
-				<name type="string">Boeing</name>
+				<name type="string">BOE Boeing</name>
 				<texture>Liveries/748I/Boeing_fuselage.png</texture>
 			</livery>
 			<turbofans>
-				<name type="string">Boeing</name>
+				<name type="string">BOE Boeing</name>
 				<texture>Liveries/748I/turbofan.png</texture>
 			</turbofans>
 			<wings>
-				<name type="string">Boeing</name>
+				<name type="string">BOE Boeing</name>
 				<texture>Liveries/748I/wings.png</texture>
 			</wings>
     </model>
